@@ -6,7 +6,27 @@
     <title>Document</title>
 </head>
 <body>
+
+    {% include "nav.html" %}
+
+
+
     <h1> MY Django Project </h1>
+    {{age}}
+    <br>
+
+    {% for x in age  %}
+    {{x}}<br>
+    {% endfor %}
+
+   {% block content  %}
+   
+   {% endblock  %}
+
+
+   
+
+
     
 </body>
 </html>
