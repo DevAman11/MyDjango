@@ -6,7 +6,16 @@ def index(req):
     return render(req,'index.html',context=data)
 
 def dynamic(req,id):
-    return HttpResponse(id)
+    return render(req,id)
 
-def about(req):
-    return render(req,"about.html")
+def Home(req):
+    return render(req,"Home.html")
+
+def Blog(req):
+    return render(req,"Blog.html")
+
+def About(req):
+    return render(req,"About.html")
+
+def Contact(req):
+    return render(req,"Contact.html")
