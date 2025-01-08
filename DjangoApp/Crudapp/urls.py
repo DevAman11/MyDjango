@@ -5,8 +5,10 @@ from . import views
 urlpatterns = [
 
     path('',views.Home),
-    path('Blog',views.Blog),
-    path('Contact/',views.Contact),
     path('About/', views.About),
+    path('Card',views.Card),
+    path('Loan',views.Loan),
+    path('Privacy',views.Privacy),
+    path('Contact/',views.Contact),
     path('dynamic/<id>',views.dynamic)
 ]

@@ -11,11 +11,17 @@ def dynamic(req,id):
 def Home(req):
     return render(req,"Home.html")
 
-def Blog(req):
-    return render(req,"Blog.html")
-
 def About(req):
     return render(req,"About.html")
+
+def Loan(req):
+    return render(req,"Loan.html")
+
+def Card(req):
+    return render(req,"Card.html")
+
+def Privacy(req):
+    return render(req,"Privacy.html")
 
 def Contact(req):
     return render(req,"Contact.html")
