@@ -1,0 +1,83 @@
+.HomeContainer{
+    width: 100%;
+    height: 800px;
+    background-color:#31043d;
+    position: relative;
+}
+
+.Img1{
+    position: absolute;
+    top: 150px;
+    left: 32%;
+    /* width: 600px; */
+    height: 550px;
+}
+
+.Divimg2{
+    width: 95%;
+    height: 130px;
+    background-color: #5B3C63;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Divimg3{
+    /* width: 95%;
+    height: 130px; */
+    position: absolute;
+    top: 20%;
+    left: 3%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContainBox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+  
+}
+
+.MainBox{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+
+/* .Boxchild1{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+
+} */
+
+.Boxdiv1{
+    width: 410px;
+    height: 172px;
+    background-color: palevioletred;
+    border: 10px;
+
+}
+
+.Boxdiv2{
+    width: 410px;
+    height: 172px;
+    /* background-color:green; */
+}
+
+
+.Boxdiv3{
+    width: 410px;
+    height: 172px;
+    /* background-color: darkslategray; */
+   
+}
